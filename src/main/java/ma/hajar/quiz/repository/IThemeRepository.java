@@ -1,17 +1,10 @@
-/**
- * 
- */
-package ma.hajar.quiz.service;
+package ma.hajar.quiz.repository;
 
 import java.util.List;
 
 import ma.hajar.quiz.domain.Theme;
 
-/**
- * @author HajarBenBella
- *
- */
-public interface IThemeService {
+public interface IThemeRepository {
 	public void add(Theme theme);
 	public void update(Theme theme);
 	public Theme findOneById(Long id);
