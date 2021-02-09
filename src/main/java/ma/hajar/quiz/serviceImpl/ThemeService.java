@@ -6,6 +6,7 @@ package ma.hajar.quiz.serviceImpl;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import ma.hajar.quiz.domain.Theme;
 import ma.hajar.quiz.repositoryImpl.ThemeRepository;
@@ -15,6 +16,7 @@ import ma.hajar.quiz.service.IThemeService;
  * @author HajarBenBella
  *
  */
+@Service
 public class ThemeService implements IThemeService {
 	
 	@Autowired
